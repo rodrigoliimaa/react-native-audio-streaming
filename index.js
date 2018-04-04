@@ -100,7 +100,7 @@ class Player extends Component {
             <TouchableOpacity style={styles.container} onPress={this._onPress}>
                 {icon}
                 <View style={styles.textContainer}>
-                    <Text style={styles.songName}>{this.state.song}</Text>
+                    <Text style={styles.songName}>{this.props.title}</Text>
                 </View>
             </TouchableOpacity>
         );
